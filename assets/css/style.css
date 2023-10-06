@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Header Section Start */
+header{
+    width: 100%;
+    height: 40px;
+    background: #022F83;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+/* /Header Section End */
+/* Banner Section Start */
+.banner{
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(rgba(101, 77, 77, 0),rgba(69, 27, 27,1)),
+                url(../img/industrial.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    align-items: center;
+}
+.banner h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: normal;
+}
+.banner h1 span{
+    font-size: 60px; 
+    display: block;
+}
+.banner aside{
+    padding: 15px;
+    background: #022F83;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+.banner aside h2{
+    text-align: center;
+}
+.banner aside input[type]{
+    width: 100%;
+    height: 40px;
+    margin: 5px;  
+    text-align: center;
+}
+.banner aside button{
+    width: 100%;
+    height: 40px;
+    margin: 5px;
+    background: #38CBF1;  
+    border-radius: 5px;
+    font-weight: bold;
+}
+.banner aside textarea{
+    width: 100%;
+    height: 100px;
+    margin-left: 5px;   
+    text-align: center;
+    padding-top: 35px;
+}
+/* /Banner Section End */
+/* Feature Section Start */
+.feature{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+.feature div{
+    width: 100%;
+    height: auto;
+}
+.feature h2{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.feature img{
+    width: 250px;
+    height: 150px;
+}
+.feature div p{
+    width: 250px;
+    text-align: justify;
+    margin-top: 5px;
+    font-size: 17px;
+    word-spacing: 1px;
+}
+/* /Feature Section End */
+/* About Us Section Start */
+.about{
+    width: 100%;
+    height: auto;
+    background: #022F83;
+    color: #fff;
+    padding: 50px 100px;
+}
+.about h2{
+    text-align: center;
+}
+.about p{
+    padding: 0px 100px;
+    text-align: center;
+}
+.about button{
+    width: 30%;
+    height: 40px;
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    background: #022F83;
+    border-color: #fff;
+    color: #fff;
+    margin-left: 380px;
+}
+/* /About Us Section End */
+/* Our Service Section Start */
+.service{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+.service .upper,
+.service .lower{
+    display: flex;
+    align-items: center;
+}
+.service .image img{
+    width: 531px;
+    height: 531px;
+}
+.service .content p{
+    align-items: center;
+    padding: 0px 50px;
+}
+.service .content h3{
+    padding-left: 50px;
+}
+.service .content 
+.service .image{
+    width: 50%;
+}
+/* /Our Service Section End */
+/* Footer Section Start */
+footer{
+    width: 100%;
+    height: 40px;
+    background: #022F83;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 35px;
+}
+/* /Footer Section End */
