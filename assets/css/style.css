@@ -162,3 +162,68 @@ footer{
     margin-top: 35px;
 }
 /* /Footer Section End */
+/* Media Query Start */
+@media screen and (max-width:990px){
+ header{
+  width: auto;
+  padding:0px 10px;
+}
+.feature{
+     padding: 50px 50px;
+} 
+.about{
+    padding:50px 50px; 
+}
+.about p{
+    text-align:justify;
+}
+.about button {
+    margin-left:320px;
+}
+.service{
+    padding:0px 50px;
+}
+.service .image img{
+    width:250px;
+    height:250px;
+}
+}
+@media screen and (max-width:575px) {
+    header{
+        height: auto;
+        font-size: small;
+    }
+    .banner main span{
+        font-size: 40px;
+    }
+   .banner{
+    display: block;
+    height: auto;
+    padding: 0px 40px;
+   } 
+   .feature{
+    display: contents;
+   }
+   .about{
+    padding: 20px 15px;
+   }
+   .about p{
+    padding: 0px 0px;
+   }
+   .about button{
+    margin-left: 100px;
+    width: 100px;
+   }
+   .service .upper,
+   .service .lower{
+    display: contents;
+    align-items: center;
+ }
+ .service .content p{
+    padding: 0px 0px;
+ }
+ footer{
+    height: auto;
+ }
+}
+/* Media Query End */
